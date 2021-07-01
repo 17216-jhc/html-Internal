@@ -1,13 +1,19 @@
 /* CSS files add styling to your content */
 
 /* VARIABLES */
-
+html {
+  --headerbgc: #d02a2a; /* background colour in my header */
+  --actnavbgc: #d02a2a;/* background colour my nav's that are active */
+  --hovnavbgc: #111;/* background colour my nav's that are being hovered */
+  --navbgc: #333;/* background colour for my nav bar */
+  --navlistac:#fff; /* colour for my fonts in nav bar */
+  --navbglistc:#bbb; /* background colour for my tabs in nav */
+}
 
 /*  BODY */
 
 
 /*  HEADER */
-
 
 
 /*  NAVBAR */
