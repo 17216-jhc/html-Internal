@@ -23,6 +23,13 @@ html {
   float:left;
 }
 
+#title {
+  font-family: 'Noto Sans TC', sans-serif; /* Google Font */
+  font-size: 50px;
+  text-align: center;
+  padding-right: 310px;
+}
+
 /*  NAVBAR */
 /* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active */
 ul {
