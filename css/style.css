@@ -14,12 +14,59 @@ html {
 
 
 /*  HEADER */
+.header {
+  background-color: var(--headerbgc);
+  padding: 20px;
+}
 
+#logo-jhc img{
+  float:left;
+}
 
 /*  NAVBAR */
+/* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--navbgc);
+}
 
+li {
+  float: left;
+  border-right:1px solid var(--navbglistc);
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: var(--navlistac);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: var(--hovnavbgc);
+}
+
+.active {
+  background-color: var(--actnavbgc);
+}
 
 /*  CONTENT */
 
 
 /*  FOOTER */
+/* Making a fixed footer at the bottom of the page */
+.footer {
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  text-align:center;
+} 
