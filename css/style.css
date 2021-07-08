@@ -67,6 +67,9 @@ li a:hover:not(.active) {
 }
 
 /*  CONTENT */
+.content {
+  padding-bottom:100px;
+}
 /*--Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active */
 {box-sizing:border-box}
 
@@ -167,14 +170,42 @@ li a:hover:not(.active) {
 h2 {
   font-size: 45px;
   text-align: center;
-  font-family: Merriweather, serif;
-  font-weight: 700;
-  font-style: bold;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+}
+
+p { 
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 20px;
+}
+
+.img-Principal {
+  float: right;
+  padding-right: 35px;
+}
+
+.sub-heading-contact-us {
+  font-weight: 200;
+}
+
+.p-principal {
+  padding-left: 30px;
 }
 /*  FOOTER */
 /* Making a fixed footer at the bottom of the page */
 .footer {
-  position: fixed;
+  /*position: fixed;*/
   bottom:0;
   left:0;
   width:100%;
