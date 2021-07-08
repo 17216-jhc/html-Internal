@@ -1,33 +1,76 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-	  <!-- Need this for making websites responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>JHC Leo Club</title>
-    <link href="/css/style.css" rel="stylesheet" type="text/css" />
-	  <link href="/css/responsive.css" rel="stylesheet" type="text/css" />
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<!-- Need this for making websites responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" 
+	<title>JHC Leo Club</title>
+	<link href="/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="/css/responsive.css" rel="stylesheet" type="text/css" />
+
+    <!-- Google Fonts API Link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="icon" 
       type="image/jpg" 
       href="/images/logo-hargest.jpg">
-  </head>
-  <body>
-    <script src="script.js"></script>
-	  <div class="container">
-    <!-- ______________________ HEADER ______________________ -->
+</head>
+<style>
+   
+  #borderimg1 {
+    display: block;
+		border: 5px solid #555;
+		overflow: hidden;
+		float: left;
+    margin: 20px;
+    margin-left: 50px;
+    line-height: 0;
+	}
+</style>
+
+
+<body>
+	<script src="script.js">
+
+	</script>
+	<div class="container">
+		<!-- ______________________ HEADER ______________________ -->
 		<div class="header">
-			<h1> Leo Club</h1>
+      <div id="logo-jhc">
+			<img src="/images/james-hargest-logo-1.png" alt="logo" width= 250px>
+			<h1 id="title"> Leo Club</h1>
 		</div>
-    <!-- ______________________ NAVIGATION BAR ______________________ -->
-
+    </div>
+		<!-- ______________________ NAVIGATION BAR ______________________ -->
+    <div class="navbar">
+			<!--Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active -->
+			<ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="who-are-leoclub.html">Who are Leoclub</a></li>
+				<li><a href="what-have-they-done.html">What have they done</a></li>
+				<li><a href="contact-us.html">Contact us</a></li>
+			</ul>
+		</div>
 		<!-- ______________________ CONTENT PER PAGE ______________________ -->
+  <!-- Slideshow container -->
+  <!--Source :https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+  <h2> Page name </h2>
 
+
+</div>
+   </div>
 		<!--content ends -->
 		<!-- ______________________ FOOTER ______________________ -->
-
+      <div class="footer">
+			<p>
+				Copyright &copy; 2021 James Hargest College
+			</p>
+		</div>
 	</div> <!-- end of container class -->
   </body>
 </html>
