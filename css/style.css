@@ -1,12 +1,13 @@
 /* CSS files add styling to your content */
 
 /* VARIABLES */
+
 html {
   --headerbgc: #d02a2a; /* background colour in my header */
   --actnavbgc: #d02a2a;/* background colour my nav's that are active */
   --hovnavbgc: #111;/* background colour my nav's that are being hovered */
   --navbgc: #333;/* background colour for my nav bar */
-  --navlistac:#fff; /* colour for my fonts in nav bar */
+  --navlistac:white; /* colour for my fonts */
   --navbglistc:#bbb; /* background colour for my tabs in nav */
 }
 
@@ -162,6 +163,14 @@ li a:hover:not(.active) {
   to {opacity: 1}
 }
 
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  font-family: Merriweather, serif;
+  font-weight: 700;
+  font-style: bold;
+}
 /*  FOOTER */
 /* Making a fixed footer at the bottom of the page */
 .footer {
