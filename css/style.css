@@ -1,5 +1,4 @@
 /* CSS files add styling to your content */
-
 /* VARIABLES */
 
 html {
@@ -12,7 +11,6 @@ html {
 }
 
 /*  BODY */
-
 
 /*  HEADER */
 .header {
@@ -68,7 +66,15 @@ li a:hover:not(.active) {
 
 /*  CONTENT */
 .content {
-  padding-bottom:100px;
+  padding-bottom: 300px;
+}
+
+.content-2 {
+  padding-bottom: 20px;
+}
+
+.content-3 {
+  padding-bottom: 400px;
 }
 /*--Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active */
 {box-sizing:border-box}
@@ -144,10 +150,6 @@ li a:hover:not(.active) {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -166,6 +168,9 @@ li a:hover:not(.active) {
   to {opacity: 1}
 }
 
+.home-img{
+  padding-bottom: 100px;
+}
 
 h2 {
   font-size: 45px;
@@ -177,22 +182,24 @@ h2 {
 h3 {
   font-size: 25px;
   font-family: 'Roboto Slab', serif;
-  font-weight: 500;
+  font-weight: 600;
+  margin-left: 20px;
 }
 
 p { 
   font-family: century-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 19px;
+  font-size: 20px;
   padding-top: 25px;
   padding-bottom: 25px;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 .img-Principal {
+  padding-right: 400px;
   float: right;
-  padding-right: 35px;
 }
 
 .sub-heading-contact-us {
@@ -200,12 +207,21 @@ p {
 }
 
 .p-principal {
-  padding-left: 30px;
+  padding-left: 450px;
+}
+
+.contact-map{
+  float: right;
+  padding-right: 40px;
+}
+
+.contact-map-2{
+  float: left;
+  padding-left: 40px;
 }
 /*  FOOTER */
 /* Making a fixed footer at the bottom of the page */
 .footer {
-  /*position: fixed;*/
   bottom:0;
   left:0;
   width:100%;

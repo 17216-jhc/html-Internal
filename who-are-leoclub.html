@@ -15,6 +15,11 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+  
+  <!-- Google Fonts API Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
 	<link rel="icon" 
       type="image/jpg" 
@@ -26,9 +31,20 @@
     display: block;
 		border: 5px solid #555;
 		overflow: hidden;
+		float: right;
+    margin: 20px;
+    margin-right: 50px;
+    line-height: 0;
+	}
+
+  
+	#borderimg2 {
+    display: block;
+		border: 5px solid #555;
+		overflow: hidden;
 		float: left;
     margin: 20px;
-    margin-left: 50px;
+    margin-left: 325px;
     line-height: 0;
 	}
 
@@ -45,7 +61,7 @@ img {vertical-align: middle;}
 	</script>
 	<div class="container">
 		<!-- ______________________ HEADER ______________________ -->
-		<div class="header">
+			<div class="header">
       <div id="logo-jhc">
 			<img src="/images/james-hargest-logo-1.png" alt="logo" width= 250px>
 			<h1 id="title"> Leo Club</h1>
@@ -56,17 +72,29 @@ img {vertical-align: middle;}
 			<!--Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active -->
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a class="active" href="who-are-leoclub.html">Who are Leoclub</a></li>
+				<li><a class="active" href="who-are-leoclub.html">Who Are We</a></li>
 				<li><a href="what-have-they-done.html">What have they done</a></li>
-				<li><a href="contact-us.html">Contact us</a></li>
+				<li><a href="contact-us.html">Contact Us</a></li>
 			</ul>
 		</div>
 		<!-- ______________________ CONTENT PER PAGE ______________________ -->
   <!-- Slideshow container -->
   <!--Source :https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+  <div class="content">
   <h2> Who are Leo Club? </h2>
+  <div id="borderimg1"> 
+     <img src="/images/awards.jpg" alt="Hargest Students" width=700px/>
+  </div>
+  <!--Source :https://www.jameshargest.school.nz/pages/leo-club/ -->
+  <p> The LEO Club (Leadership - Experience - Opportunity) is a Young Lions Club set up to provide service. Our Club is supported by the Makarewa Lions Club. It has approximately 200 members and has been active at James Hargest for more than 20 years. 
 
+ <br> <br> It is an option for year 11,12 and 13 students to provide service and put others before themselves. The President, Secretary and Treasurer are the figure heads. If operates in Committees e.g. Charities, Social, Events, Fundraising and Promotions. Each Committee has two student leaders. </p>
+  <div id="borderimg2"> 
+     <img src="/images/students.jpg" alt="Hargest Leo Club Awards"width=400px/> 
+   </div>
 
+ </div>
+ <!--content ends -->
 </div>
    </div>
 		<!--content ends -->
